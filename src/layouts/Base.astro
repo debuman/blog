@@ -69,13 +69,9 @@ const currentNav = NAV.find((n) => n.href !== '/' && isCurrent(n.href));
 const SITE_OWNER = 'Hyukjin An';
 const pageName = currentNav?.label ?? SITE_OWNER;
 
-/* Profiles, not a link list: rel="me" below only means anything for places that are
-   this person. GitHub and Instagram are the pair sqzer.com's own footer carries. The
-   LinkedIn handle is the author's own, and only the author can vouch for it: LinkedIn
-   answers robots with a 999 whatever the URL, so a dead profile and a live one look
-   identical to any automated check. */
+/* The author's repository browser and social profiles. */
 const ELSEWHERE = [
-  { label: 'GitHub',    href: 'https://github.com/debuman' },
+  { label: 'GitHub',    href: 'https://oni.sqzer.com' },
   { label: 'LinkedIn',  href: 'https://www.linkedin.com/in/sqzer' },
   { label: 'Instagram', href: 'https://www.instagram.com/sqzer_x' },
 ];
