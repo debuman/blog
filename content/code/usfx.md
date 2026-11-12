@@ -1,6 +1,6 @@
 ---
 name: "USFX — Ultimate Subdomain Finder X"
-url: "https://github.com/sqzer-x/usfx"
+url: "https://github.com/debuman/usfx"
 order: 70
 ---
 

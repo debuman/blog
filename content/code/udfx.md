@@ -1,6 +1,6 @@
 ---
 name: "UDFX — Ultimate Domain Finder X"
-url: "https://github.com/sqzer-x/udfx"
+url: "https://github.com/debuman/udfx"
 order: 60
 ---
 

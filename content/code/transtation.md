@@ -1,6 +1,6 @@
 ---
 name: "transtation"
-url: "https://github.com/sqzer-x/transtation"
+url: "https://github.com/debuman/transtation"
 order: 10
 ---
 

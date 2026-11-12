@@ -1,6 +1,6 @@
 ---
 name: "OMMP — Oh My Music Player"
-url: "https://github.com/sqzer-x/ommp"
+url: "https://github.com/debuman/ommp"
 order: 30
 ---
 

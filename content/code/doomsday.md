@@ -1,6 +1,6 @@
 ---
 name: "Doomsday"
-url: "https://github.com/sqzer-x/doomsday"
+url: "https://github.com/debuman/doomsday"
 order: 50
 ---
 

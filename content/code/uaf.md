@@ -1,6 +1,6 @@
 ---
 name: "UAF — Ultimate AP Finder"
-url: "https://github.com/sqzer-x/uaf"
+url: "https://github.com/debuman/uaf"
 order: 40
 ---
 

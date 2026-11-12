@@ -1,4 +1,4 @@
-# blog.sqzer.com
+# sqzer.com
 
 Personal research notes.
 

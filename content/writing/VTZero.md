@@ -11,7 +11,7 @@ draft:
 # 개요
 Virustotal의 vt-py를 활용하여 유의미한 데이터(국가, 소유자, 유해정도) 추철 및 대량 검색기능 제공
 
-https://github.com/sqzer-x/VTZero
+https://github.com/debuman/VTZero
 
 # 필요조건
 VirusTotal API 키 필요
@@ -20,7 +20,7 @@ API키는 회원가입 하면 자동으로 발급이 되며 키는 `https://www.
 # 설정
 1. Repo clone
 ```bash
-git clone https://github.com/sqzer-x/VTZero.git
+git clone https://github.com/debuman/VTZero.git
 cd your-repo
 ```
 

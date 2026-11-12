@@ -21,7 +21,7 @@
  * It must run first among the hast plugins: satteriDiagram inlines its SVG as a raw node,
  * and that one is ours.
  */
-const SITE = new URL('https://blog.sqzer.com/');
+const SITE = new URL('https://sqzer.com/');
 const LINK_PROTOCOLS = new Set(['http:', 'https:', 'mailto:']);
 
 /* The allowed tags, removed in one pass. Whatever is left must not open markup the way the

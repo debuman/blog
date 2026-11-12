@@ -1,6 +1,6 @@
 ---
 name: "sqzass"
-url: "https://github.com/sqzer-x/sqzass"
+url: "https://github.com/debuman/sqzass"
 order: 20
 ---
 

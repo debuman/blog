@@ -146,7 +146,7 @@ const codeBlock = {
 };
 
 export default defineConfig({
-  site: 'https://blog.sqzer.com',
+  site: 'https://sqzer.com',
   /* The Hugo site this replaced shipped a sitemap, and robots.txt (src/pages/robots.txt.ts)
      names one, so it has to exist: a robots line pointing at a 404 is a dead link handed
      to every crawler that reads the file. */
