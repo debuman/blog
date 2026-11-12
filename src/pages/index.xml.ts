@@ -7,7 +7,7 @@ import { excerpt } from '../lib/prose';
 /**
  * The feed, at the one address the site has always claimed, and the one every page's
  * <head> advertises: Base.astro prints `<link rel="alternate" type="application/rss+xml"
- * title="sqzer" href="/index.xml">` on every page, so this file is what
+ * title="debuman" href="/index.xml">` on every page, so this file is what
  * answers a reader who subscribes from any of them.
  *
  * One feed, not the per-section feeds the Hugo site shipped: a blog that publishes into
@@ -34,7 +34,7 @@ export async function GET(context: APIContext) {
     .sort(byHugoOrder);
 
   return rss({
-    title: 'sqzer',
+    title: 'debuman',
     description: 'Notes on systems, networks, and the things around them.',
     // context.site is astro.config.mjs's `site`. Required: every link in a feed is absolute.
     site: context.site!,

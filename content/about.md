@@ -4,8 +4,8 @@ date: 2024-10-31
 ---
 
 Hyukjin An — Software & Security Engineer, and a founder, based in South Korea.
-Most places online I go by **SQZER**, because I like squeezing a thing down until it
-breaks and shows me what it was made of. Squeezer is fine too.
+I'm a pig who loves coding and happens to be a weeb.
+That's why I go by **debuman** online.
 
 I like having a hand in the whole lifecycle of a service, from the hardware and the
 systems underneath it through DevSecOps and on to planning and writing the thing. That

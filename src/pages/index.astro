@@ -34,7 +34,7 @@ const titleLang = (t: string) => (hasHangul(t) ? 'ko' : KANA_KANJI.test(t) ? 'ja
 const ko = hasHangul(entry!.body) || books.some((b) => hasHangul(b.title + b.author));
 ---
 <Base
-  title="sqzer"
+  title="debuman"
   description="Hyukjin An — software and security engineer, and a founder, in South Korea."
   ko={ko}
 >
