@@ -29,7 +29,7 @@ Code alongside.
 What I write is under [writing](/writing/), and the tools I have published are under
 [code](/code/) — including [sqzass](https://github.com/debuman/sqzass), the static site
 generator that builds [sqzer.com](https://sqzer.com/). There is more on
-[GitHub](https://github.com/debuman), a service of mine at
+[GitHub](https://oni.sqzer.com), a service of mine at
 [lacrymaria.com](https://lacrymaria.com), and I am on
 [LinkedIn](https://www.linkedin.com/in/sqzer). Mail reaches me at
 contact.extinct932@passmail.net.
