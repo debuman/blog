@@ -1,5 +1,5 @@
 /**
- * satteri-prose — three repairs to the rendered tree, in one plugin.
+ * satteri-prose — formatting for the rendered article.
  *
  * 1. Demote headings. 8 of 30 posts use `#` as a section heading (VTZero 4,
  *    인지부조화이론 5, how-to-win-best-paper-ko 4, AIOdyssey 2, We_need_to_talk 2,
@@ -19,6 +19,7 @@
  *    928px column renders at its own size instead of being upscaled.
  * 3. Wrap tables. 4 posts contain tables; each gets a focusable scroll container so a wide
  *    table never makes the page itself scroll sideways.
+ * 4. Offer registry files under /uploads/ as downloads.
  */
 import { readFileSync } from 'node:fs';
 import path from 'node:path';
@@ -82,6 +83,14 @@ export default function satteriProse({ publicDir = 'public' } = {}) {
   return {
     name: 'prose',
     element: [
+      {
+        filter: ['a'],
+        visit(node, ctx) {
+          const href = node.properties?.href;
+          if (typeof href === 'string' && href.startsWith('/uploads/') && href.endsWith('.reg'))
+            ctx.setProperty(node, 'download', '');
+        },
+      },
       {
         filter: ['h1', 'h2', 'h3', 'h4', 'h5'],
         visit(node, ctx) {
